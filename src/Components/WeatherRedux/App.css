@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  margin: 12px;
+}
+
+.Details {
+  background-color: #999;
+  height: 85vh;
+  width: calc(100%- 40);
+  overflow: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (max-width: 48em) {
+  .Details{
+    height: 40vh;
+  }
+}

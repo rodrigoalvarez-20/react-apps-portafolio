@@ -101,3 +101,20 @@
         color: rgb(255,72,0)
     }
 }
+
+.WeatherRedux{
+    .Details {
+        background-color: #999;
+        height: 85vh;
+        width: calc(100%- 40);
+        overflow: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+      
+    @media (max-width: 48em) {
+        .Details{
+          height: 40vh;
+        }
+    }
+}

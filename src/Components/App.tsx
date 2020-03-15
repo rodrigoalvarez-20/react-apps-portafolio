@@ -8,12 +8,9 @@ import { Button, Container, Navbar, Nav } from "react-bootstrap";
 import styles from "./Styles/Styles.module.scss";
 import IApp from "./Interfaces";
 import WeatherComponent from "./WeatherApp";
+import WeatherRedux from "./WeatherRedux";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-  
-function About() {
-    return <h2>About</h2>;
-}
   
 function Users() {
     return <h2>Users</h2>;
@@ -21,7 +18,7 @@ function Users() {
 
 let dictApp : Array<IApp> = [
     { name: "Weather App", url: "/WeatherApp", icon: "", component: <WeatherComponent /> },
-    { name: "Weather App con Redux", url: "/WeatherRedux", icon:"", component: <About /> },
+    { name: "Weather App con Redux", url: "/WeatherRedux", icon:"", component: <WeatherRedux /> },
     { name: "Customers ABM", url: "/Customers", icon: "", component: <Users /> }
 ]
 
